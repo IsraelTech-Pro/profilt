@@ -79,7 +79,7 @@ const Header: React.FC = () => {
         {isMenuOpen && (
           <>
             <div className="fixed inset-0 z-40 bg-black bg-opacity-40" onClick={() => setIsMenuOpen(false)}></div>
-            <div className="fixed top-0 right-0 z-50 w-3/4 max-w-xs h-full bg-black border-l-2 border-white/20 shadow-2xl flex flex-col animate-slideIn rounded-l-2xl" style={{backgroundColor: '#000', opacity: 1}}>
+            <div className="fixed top-0 right-0 z-50 w-3/4 max-w-xs h-full bg-black border-l-2 border-white/20 shadow-2xl flex flex-col animate-slideIn rounded-l-2xl" style={{backgroundColor: '#000', opacity: 1, boxShadow: '0 0 0 9999px #000'}}>
               <div className="w-full bg-black pb-4 -mx-6 px-6 border-b border-white/10 rounded-tl-2xl rounded-tr-2xl flex items-center justify-end">
                 <button
                   aria-label="Close menu"
